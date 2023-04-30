@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Prompt:wght@600&display=swap');
+
+
+.footer {
+  background: #000;
+  color: #fff;
+}
+
+.footer-titulo h2 {
+  font-size: 3rem;
+  line-height: 1.33;
+  font-family: 'Merriweather Sans', 'Fira Sans', Arial, sans-serif;
+}
+
+.footer-titulo h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.footer-titulo p {
+  font-size: 1.5rem;
+  color: #8F8F8F;
+}
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: end;
+}
+
+.footer-menu a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  display: block;
+ }
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .footer-titulo h2 {
+    font-size: 2rem;
+  }
+
+  .footer-titulo h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .footer-titulo p {
+    font-size: 1rem;
+  }
+
+  .footer-menu {
+    gap: 10px;
+    justify-content: center;
+  }
+}

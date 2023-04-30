@@ -1,0 +1,62 @@
+.contato {
+  background: #090909;
+  color: #fff;
+}
+
+.contato .subtitulo {
+  color: #666;
+}
+
+.contato-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 45ch;
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+.contato-lista {
+  margin-bottom: 40px;
+}
+
+.contato-informacao {
+  margin-bottom: 40px;
+}
+
+.contato-informacao h3 {
+  font-size: 2rem;
+  line-height: 1.33;
+}
+
+.contato-informacao p {
+  font-size: 1.5rem;
+  color: #c6c6c6;
+}
+
+.contato-links ul {
+  justify-content: end;
+  display: flex;
+  gap: 20px;
+}
+
+.contato-links a:hover path{
+  background: #fff;
+}
+
+@media (max-width: 800px) {
+  .contato-texto {
+    font-size: 1.25rem;
+  }
+
+  .contato-informacao {
+    margin-bottom: 20px;
+  }
+  
+  .contato-informacao h3 {
+    font-size: 1.5rem;
+  }
+
+  .contato-informacao p {
+    font-size: 1.25rem;
+  }
+}
