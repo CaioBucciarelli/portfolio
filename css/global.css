@@ -45,7 +45,7 @@ img {
   padding: 60px 20px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 1fr;
   gap: 100px;   
 }
 
@@ -62,6 +62,12 @@ img {
     grid-template-columns: 1fr;
     padding: 60px 20px;
     gap: 40px;
+  }
+
+  .footer-container {
+    padding: 60px 20px;
+    grid-template-columns: 1fr;
+    gap: 20px;   
   }
 
   .subtitulo {

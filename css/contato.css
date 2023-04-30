@@ -59,4 +59,8 @@
   .contato-informacao p {
     font-size: 1.25rem;
   }
+
+  .contato-links ul {
+    justify-content: start;
+  }
 }

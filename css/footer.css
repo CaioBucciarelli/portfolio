@@ -26,9 +26,7 @@
 
 .footer-menu {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
-  justify-content: end;
 }
 
 .footer-menu a {
@@ -58,7 +56,14 @@
   }
 
   .footer-menu {
+    order: 1;
     gap: 10px;
-    justify-content: center;
+    justify-content: start;
   }
+
+  .footer-menu a {
+    font-size: 1.25rem;
+    padding: 8px 16px;
+    display: block;
+   }
 }
