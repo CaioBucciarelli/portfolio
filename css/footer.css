@@ -56,14 +56,6 @@
   }
 
   .footer-menu {
-    order: 1;
-    gap: 10px;
-    justify-content: start;
+    display: none;
   }
-
-  .footer-menu a {
-    font-size: 1.25rem;
-    padding: 8px 16px;
-    display: block;
-   }
 }
