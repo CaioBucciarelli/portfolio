@@ -79,9 +79,28 @@
   margin-bottom: 40px;
 }
 
+li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 0px;
+}
+
 .curso-instituicao {
   font-size: .75rem;
   color: #a3a3a3;
+}
+
+li div a {
+  font-size: .75rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e4e4e4;
+}
+
+li div a:hover {
+  color: #afafaf;
 }
 
 .formacao-academica {
