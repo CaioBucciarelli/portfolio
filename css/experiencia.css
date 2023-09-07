@@ -46,28 +46,14 @@
   width: 100%;
 }
 
-a + .empresa {
+.lista-empresa {
+  padding-right: 20px;
+  overflow-y: auto;
+  max-height: 640px;
+}
+
+.item-lista-empresa{
   margin-top: 40px;
-}
-
-
-.empresa::before {
-  content: "";
-  display: block;
-  width: 4px;
-  height: 20px;
-  background: linear-gradient(180deg, #90C4EB 0%, #5388CE 100%);
-  position: absolute;
-  top: 20px;
-  left: -4px;
-}
-
-.empresa-ano {
-  position: absolute;
-  top: 20px;
-  left: 120px;
-  color: #525252;
-  font-size: 0.875rem;
 }
 
 .empresa-titulo {
